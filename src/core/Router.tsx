@@ -7,6 +7,7 @@ import Crew from "./components/Crew";
 import Faq from "./components/Faq";
 import Tos from "./components/Tos";
 import Privacy from "./components/Privacy";
+import Rules from './components/Rules';
 
 export default () => {
   return (
@@ -34,6 +35,10 @@ export default () => {
       <Route
         exact path={'/privacy-policy'}
         component={Privacy}
+      />
+      <Route
+        exact path={'/rules'}
+        component={Rules}
       />
       <Route
         path={''}

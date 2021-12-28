@@ -22,7 +22,7 @@ class Home extends Component {
               </Link>
             </div>
 
-            <img src="/img/csgo-background-1.jpg" alt=""></img>
+            {/*<img src="/img/csgo-background-1.jpg" alt=""></img>*/}
           </div>
         </div>
       </LayoutNew>
